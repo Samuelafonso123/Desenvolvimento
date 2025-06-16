@@ -1,0 +1,128 @@
+
+:root{
+    --texte-color:white;
+    --bg-url:url(./assets/bg-mobile.jpg);
+    --stroke-color: rgb(255, 255, 255,0.5);
+
+}
+.ligth{
+      --texte-color:black;
+    --bg-url:url(./assets/bg-mobile-light.png);
+    --stroke-color: rgb(0, 0,0,0.5);
+
+
+}
+body {
+    background:  var(--bg-url)   no-repeat top center/cover;
+
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    width: 360px;
+    margin: 56px auto 0px;
+    padding: 0px 24px;
+}
+#swict {
+    width: 64px;
+    position: relative;
+    margin: 4px auto;
+}
+#swict button{
+    width: 32px;
+    height: 32px;
+    border: 0;
+    border-radius: 50%;
+    background-image: url(assets/handle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#swict span{
+    display: block;
+    width: 64px;
+    height: 24px;
+    border-radius: 9999px;
+    background-color: rgba(114, 112, 112, 0.55);
+}
+.ligth #swict button{
+    right: 0;
+    left: initial;
+    
+}
+.profile {
+    text-align: center;
+
+}
+
+.profile img {
+    width: 122px;
+}
+
+.profile p {
+    font-weight: 500;
+    line-height: 24px;
+}
+
+ul {
+    list-style: none;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul li a {
+   border: 1px solid  rgb(255, 255, 255,0.5);
+   border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 52px;
+    padding: 16px 24px;
+    background-color: rgb(255, 255, 255,0.1);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.5s;
+}
+ul li a:hover{
+    background-color: rgb(255, 255, 255,0.05);
+    border: 1.5px solid white ;
+
+}
+.social-icons{
+    border: 2px solid white;
+    display: flex;
+    gap: 36px;
+    padding: 14px 0px;
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.817);
+    margin-top: 3%;
+    border-radius: 4px;
+ 
+}
+.social-icons img{
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+.social-icons img:hover{
+    background-color: rgba(120, 117, 117, 0.1);
+    
+}
+footer{
+    padding: 24px 0px;
+    text-align: center;
+    font-size: 14px;
+}
