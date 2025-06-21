@@ -61,9 +61,4 @@ Dê uma ⭐ se este projeto te ajudou!
 
 Copyright © 2025 [Samuel Afonso](https://github.com/Samuelafonso123).
 
----
 
-💜 Projeto educacional
-```
-
-Pronto pra usar no seu GitHub! Se quiser que eu gere o arquivo, posso também.
